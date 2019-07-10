@@ -79,12 +79,7 @@
 		9E32212122D3BC2C007E4C2B /* SalatiSalahi */ = {
 			isa = PBXGroup;
 			children = (
-				9E32212222D3BC2C007E4C2B /* AppDelegate.swift */,
-				9E32212422D3BC2C007E4C2B /* SceneDelegate.swift */,
-				9E32212622D3BC2C007E4C2B /* ContentView.swift */,
-				9E32212822D3BC2D007E4C2B /* Assets.xcassets */,
-				9E32212D22D3BC2D007E4C2B /* LaunchScreen.storyboard */,
-				9E32213022D3BC2D007E4C2B /* Info.plist */,
+				9E32214422D60D15007E4C2B /* Supporting Files */,
 				9E32212A22D3BC2D007E4C2B /* Preview Content */,
 			);
 			path = SalatiSalahi;
@@ -105,6 +100,19 @@
 				9E32213B22D3BC2D007E4C2B /* Info.plist */,
 			);
 			path = SalatiSalahiTests;
+			sourceTree = "<group>";
+		};
+		9E32214422D60D15007E4C2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E32212222D3BC2C007E4C2B /* AppDelegate.swift */,
+				9E32212422D3BC2C007E4C2B /* SceneDelegate.swift */,
+				9E32212622D3BC2C007E4C2B /* ContentView.swift */,
+				9E32212822D3BC2D007E4C2B /* Assets.xcassets */,
+				9E32212D22D3BC2D007E4C2B /* LaunchScreen.storyboard */,
+				9E32213022D3BC2D007E4C2B /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,7 +374,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SalatiSalahi/Preview\\ Content";
 				DEVELOPMENT_TEAM = 8Q8YMY5389;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SalatiSalahi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SalatiSalahi/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +394,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SalatiSalahi/Preview\\ Content";
 				DEVELOPMENT_TEAM = 8Q8YMY5389;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SalatiSalahi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SalatiSalahi/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
