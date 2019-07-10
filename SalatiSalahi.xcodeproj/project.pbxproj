@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9E32212322D3BC2C007E4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E32212222D3BC2C007E4C2B /* AppDelegate.swift */; };
 		9E32212522D3BC2C007E4C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E32212422D3BC2C007E4C2B /* SceneDelegate.swift */; };
-		9E32212722D3BC2C007E4C2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E32212622D3BC2C007E4C2B /* ContentView.swift */; };
 		9E32212922D3BC2D007E4C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E32212822D3BC2D007E4C2B /* Assets.xcassets */; };
 		9E32212C22D3BC2D007E4C2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E32212B22D3BC2D007E4C2B /* Preview Assets.xcassets */; };
 		9E32212F22D3BC2D007E4C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E32212D22D3BC2D007E4C2B /* LaunchScreen.storyboard */; };
 		9E32213A22D3BC2D007E4C2B /* SalatiSalahiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E32213922D3BC2D007E4C2B /* SalatiSalahiTests.swift */; };
+		9EE4DFA822D61FCC006BF672 /* PrayerNotificationSettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFA722D61FCC006BF672 /* PrayerNotificationSettingStore.swift */; };
+		9EE4DFAA22D61FEB006BF672 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFA922D61FEB006BF672 /* Prayer.swift */; };
+		9EE4DFAF22D621C4006BF672 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFAE22D621C4006BF672 /* PrayerTimesView.swift */; };
+		9EE4DFB122D621F5006BF672 /* PrayerTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFB022D621F5006BF672 /* PrayerTimeViewModel.swift */; };
+		9EE4DFB422D6225E006BF672 /* PrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFB322D6225E006BF672 /* PrayerTime.swift */; };
+		9EE4DFB722D62286006BF672 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = 9EE4DFB622D62286006BF672 /* Adhan */; };
+		9EE4DFB922D62801006BF672 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFB822D62801006BF672 /* Defaults.swift */; };
+		9EE4DFBB22D62C37006BF672 /* PrayerTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFBA22D62C37006BF672 /* PrayerTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +37,6 @@
 		9E32211F22D3BC2C007E4C2B /* SalatiSalahi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalatiSalahi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E32212222D3BC2C007E4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E32212422D3BC2C007E4C2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E32212622D3BC2C007E4C2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E32212822D3BC2D007E4C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E32212B22D3BC2D007E4C2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E32212E22D3BC2D007E4C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,13 @@
 		9E32213522D3BC2D007E4C2B /* SalatiSalahiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalatiSalahiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E32213922D3BC2D007E4C2B /* SalatiSalahiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalatiSalahiTests.swift; sourceTree = "<group>"; };
 		9E32213B22D3BC2D007E4C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE4DFA722D61FCC006BF672 /* PrayerNotificationSettingStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerNotificationSettingStore.swift; sourceTree = "<group>"; };
+		9EE4DFA922D61FEB006BF672 /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		9EE4DFAE22D621C4006BF672 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		9EE4DFB022D621F5006BF672 /* PrayerTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeViewModel.swift; sourceTree = "<group>"; };
+		9EE4DFB322D6225E006BF672 /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
+		9EE4DFB822D62801006BF672 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		9EE4DFBA22D62C37006BF672 /* PrayerTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE4DFB722D62286006BF672 /* Adhan in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +93,9 @@
 		9E32212122D3BC2C007E4C2B /* SalatiSalahi */ = {
 			isa = PBXGroup;
 			children = (
+				9EE4DFB222D62251006BF672 /* Prayer Time Core */,
+				9EE4DFAB22D6216E006BF672 /* Prayer Time Viewer */,
+				9EE4DFA622D61FA0006BF672 /* Settings */,
 				9E32214422D60D15007E4C2B /* Supporting Files */,
 				9E32212A22D3BC2D007E4C2B /* Preview Content */,
 			);
@@ -107,12 +124,39 @@
 			children = (
 				9E32212222D3BC2C007E4C2B /* AppDelegate.swift */,
 				9E32212422D3BC2C007E4C2B /* SceneDelegate.swift */,
-				9E32212622D3BC2C007E4C2B /* ContentView.swift */,
 				9E32212822D3BC2D007E4C2B /* Assets.xcassets */,
 				9E32212D22D3BC2D007E4C2B /* LaunchScreen.storyboard */,
 				9E32213022D3BC2D007E4C2B /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EE4DFA622D61FA0006BF672 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9EE4DFA722D61FCC006BF672 /* PrayerNotificationSettingStore.swift */,
+				9EE4DFB822D62801006BF672 /* Defaults.swift */,
+				9EE4DFA922D61FEB006BF672 /* Prayer.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9EE4DFAB22D6216E006BF672 /* Prayer Time Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				9EE4DFAE22D621C4006BF672 /* PrayerTimesView.swift */,
+				9EE4DFBA22D62C37006BF672 /* PrayerTimeView.swift */,
+				9EE4DFB022D621F5006BF672 /* PrayerTimeViewModel.swift */,
+			);
+			path = "Prayer Time Viewer";
+			sourceTree = "<group>";
+		};
+		9EE4DFB222D62251006BF672 /* Prayer Time Core */ = {
+			isa = PBXGroup;
+			children = (
+				9EE4DFB322D6225E006BF672 /* PrayerTime.swift */,
+			);
+			path = "Prayer Time Core";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +175,9 @@
 			dependencies = (
 			);
 			name = SalatiSalahi;
+			packageProductDependencies = (
+				9EE4DFB622D62286006BF672 /* Adhan */,
+			);
 			productName = SalatiSalahi;
 			productReference = 9E32211F22D3BC2C007E4C2B /* SalatiSalahi.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 9E32211622D3BC2C007E4C2B;
+			packageReferences = (
+				9EE4DFB522D62286006BF672 /* XCRemoteSwiftPackageReference "adhan-swift" */,
+			);
 			productRefGroup = 9E32212022D3BC2C007E4C2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,9 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE4DFA822D61FCC006BF672 /* PrayerNotificationSettingStore.swift in Sources */,
+				9EE4DFB922D62801006BF672 /* Defaults.swift in Sources */,
+				9EE4DFAA22D61FEB006BF672 /* Prayer.swift in Sources */,
+				9EE4DFAF22D621C4006BF672 /* PrayerTimesView.swift in Sources */,
 				9E32212322D3BC2C007E4C2B /* AppDelegate.swift in Sources */,
 				9E32212522D3BC2C007E4C2B /* SceneDelegate.swift in Sources */,
-				9E32212722D3BC2C007E4C2B /* ContentView.swift in Sources */,
+				9EE4DFB422D6225E006BF672 /* PrayerTime.swift in Sources */,
+				9EE4DFB122D621F5006BF672 /* PrayerTimeViewModel.swift in Sources */,
+				9EE4DFBB22D62C37006BF672 /* PrayerTimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +535,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EE4DFB522D62286006BF672 /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EE4DFB622D62286006BF672 /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EE4DFB522D62286006BF672 /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E32211722D3BC2C007E4C2B /* Project object */;
 }
