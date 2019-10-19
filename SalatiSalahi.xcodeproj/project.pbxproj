@@ -21,6 +21,7 @@
 		9EE4DFB722D62286006BF672 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = 9EE4DFB622D62286006BF672 /* Adhan */; };
 		9EE4DFB922D62801006BF672 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFB822D62801006BF672 /* Defaults.swift */; };
 		9EE4DFBB22D62C37006BF672 /* PrayerTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFBA22D62C37006BF672 /* PrayerTimeView.swift */; };
+		9EE4DFBD22DB98E9006BF672 /* RegionCalculationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4DFBC22DB98E9006BF672 /* RegionCalculationMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9EE4DFB322D6225E006BF672 /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
 		9EE4DFB822D62801006BF672 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		9EE4DFBA22D62C37006BF672 /* PrayerTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeView.swift; sourceTree = "<group>"; };
+		9EE4DFBC22DB98E9006BF672 /* RegionCalculationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionCalculationMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				9EE4DFB322D6225E006BF672 /* PrayerTime.swift */,
+				9EE4DFBC22DB98E9006BF672 /* RegionCalculationMethod.swift */,
 			);
 			path = "Prayer Time Core";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				9EE4DFB922D62801006BF672 /* Defaults.swift in Sources */,
 				9EE4DFAA22D61FEB006BF672 /* Prayer.swift in Sources */,
 				9EE4DFAF22D621C4006BF672 /* PrayerTimesView.swift in Sources */,
+				9EE4DFBD22DB98E9006BF672 /* RegionCalculationMethod.swift in Sources */,
 				9E32212322D3BC2C007E4C2B /* AppDelegate.swift in Sources */,
 				9E32212522D3BC2C007E4C2B /* SceneDelegate.swift in Sources */,
 				9EE4DFB422D6225E006BF672 /* PrayerTime.swift in Sources */,

@@ -11,7 +11,7 @@ import Adhan
 
 struct PrayerTime {
     
-    private let prayerTimes: PrayerTimes
+    private var prayerTimes: PrayerTimes
     
     var fajir: Date { prayerTimes.fajr }
     
@@ -25,12 +25,14 @@ struct PrayerTime {
     
     var isha: Date { prayerTimes.isha }
     
-    init() {
+    var currentPrayer: Date { Date() }
+    
+    init(date: Date = .init(), lat: Double = 24.774265, lon: Double = 46.738586, region: RegionCalculationMethod = .ummAlQura) {
         let calender = Calendar(identifier: .gregorian)
-        let today = calender.dateComponents([.year, .month, .day], from: .init())
-        let coordinates = Coordinates(latitude: 35.78056, longitude: -78.6389)
+        let day = calender.dateComponents([.year, .month, .day], from: date)
+        let coordinates = Coordinates(latitude: lat, longitude: lon)
         prayerTimes = PrayerTimes(coordinates: coordinates,
-                                  date: today,
-                                  calculationParameters: CalculationMethod.ummAlQura.params)!
+                                  date: day,
+                                  calculationParameters: region.params)!
     }
 }

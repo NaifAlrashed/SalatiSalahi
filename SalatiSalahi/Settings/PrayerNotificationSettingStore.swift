@@ -10,7 +10,7 @@ import Foundation
 import Combine
 import SwiftUI
 
-final class PrayerNotificationSettingStore: BindableObject {
+final class PrayerNotificationSettingStore: ObservableObject {
     
     private enum Keys {
         static let isFajirNotificationEnabled = "isFajirNotificationEnabled"

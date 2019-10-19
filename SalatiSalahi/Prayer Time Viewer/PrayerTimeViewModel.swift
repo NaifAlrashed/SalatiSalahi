@@ -10,9 +10,9 @@ import Foundation
 import SwiftUI
 import Combine
 
-class PrayerTimesViewModel: BindableObject {
+class PrayerTimesViewModel: ObservableObject {
     
-    var didChange = PassthroughSubject<(), Never>()
+    var objectWillChange: ObservableObjectPublisher = ObservableObjectPublisher()
     
     private let prayerTime = PrayerTime()
     
@@ -24,7 +24,7 @@ class PrayerTimesViewModel: BindableObject {
     
     private func startTimer() {
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
-            self.didChange.send()
+            self.objectWillChange.send()
         }
     }
     
